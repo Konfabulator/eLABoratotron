@@ -1,9 +1,11 @@
 # uncerainty_function_maker
 The 'uncerainty_function_maker' is an application that automates the calculation of 
 uncertainty $\delta f$ of a given multi-variable expression:
+<!--  -->
 $$
 f = f(x_1, x_2, \dots, x_n)
 $$
+<!--  -->
 Such uncertainty is commonly given by the following formula:
 <!-- display Latex function -->
 $$
