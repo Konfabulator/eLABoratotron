@@ -1,5 +1,5 @@
-# eLABoratotron
-The eLABoratotron is an application that automates the calculation of 
+# uncerainty_function_maker
+The 'uncerainty_function_maker' is an application that automates the calculation of 
 uncertainty $\delta f$ of a given multi-variable expression:
 $$
 f = f(x_1, x_2, \dots, x_n)
@@ -14,18 +14,24 @@ Where $\delta x_i$ is the uncertainty of the variable $x_i$.\
 \
 Most physics experiments require evaluating such equation which takes a tone of
 precious time which could be nicely wasted.\
-The eLABoratotron could come in handy in such situations.\
+The 'uncerainty_function_maker' could come in handy in such situations.\
 \
-The eLABoratotron is able to calculate and return (in Python and LaTeX formats) the uncertainty of a given 
+The 'uncerainty_function_maker' is able to calculate and return (in Python and LaTeX formats) the uncertainty of a given 
 expression.\
 For example:
 $$
 \text{input }(f):\\
 \text{((\verb|x^2|*a+b*\verb|c^3|)\verb|^(3/2)|)/(x+a)}\\
-\quad\\
+$$
+
+$$
 \text{output (in LaTeX code) }(\delta f):\\
+$$
+$$
 \sqrt{\left(\frac{\sqrt{a x^{2} + b} \left(- a x^{2} + 3 a x \left(a + x\right) - b\right)}{\left(a + x\right)^{2}}\cdot U_x\right)^2 + \left(\frac{\sqrt{a x^{2} + b} \left(\frac{a x^{2}}{2} - b + \frac{3 x^{3}}{2}\right)}{a^{2} + 2 a x + x^{2}}\cdot U_a\right)^2 + \left(\frac{3 \sqrt{a x^{2} + b}}{2 \left(a + x\right)}\cdot U_b\right)^2}\\
-\quad\\
+$$
+$$
+% \quad\\
 $$
 User can also provide (when asked by a program) to input the lists of values and uncertainties 
 for each variable (if user doesn't want to provide values or uncertainties - from some point
@@ -53,7 +59,7 @@ f_1 = f(a_1, b_1, \dots)\\
 \dots\\
 $$
 All the values and uncertainties of the expression are calculated and saved into 
-a file 'results.txt' in the same directory as the application.\
+a file 'results.txt' in the same directory as the application.
 $$
 \text{THAT'S ALL - HAVE FUN.}
 $$
