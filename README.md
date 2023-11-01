@@ -22,33 +22,18 @@ The 'uncerainty_function_maker' is able to calculate and return (in Python and L
 expression.\
 For example:
 <!--  -->
-$$
+<!-- $$
+\color{green}
 \text{input }(f):\\
-$$
-<!--  -->
-$$
 \quad\\
-$$
-<!--  -->
-$$
 \text{((\verb|x^2|*a+b*\verb|c^3|)\verb|^(3/2)|)/(x+a)}\\
-$$
-<!--  -->
-$$
+\text{------------------------------------------------------------------------------}
 \quad\\
-$$
-<!--  -->
-$$
 \text{output (in LaTeX code) }(\delta f):\\
-$$
-<!--  -->
-$$
-\sqrt{\left(\frac{\sqrt{a x^{2} + b} \left(- a x^{2} + 3 a x \left(a + x\right) - b\right)}{\left(a + x\right)^{2}}\cdot U_x\right)^2 + \left(\frac{\sqrt{a x^{2} + b} \left(\frac{a x^{2}}{2} - b + \frac{3 x^{3}}{2}\right)}{a^{2} + 2 a x + x^{2}}\cdot U_a\right)^2 + \left(\frac{3 \sqrt{a x^{2} + b}}{2 \left(a + x\right)}\cdot U_b\right)^2}\\
-$$
-<!--  -->
-$$
 \quad\\
-$$
+\sqrt{\left(\frac{\sqrt{a x^{2} + b} \left(- a x^{2} + 3 a x \left(a + x\right) - b\right)}{\left(a + x\right)^{2}}\cdot U_x\right)^2 + \left(\frac{\sqrt{a x^{2} + b} \left(\frac{a x^{2}}{2} - b + \frac{3 x^{3}}{2}\right)}{a^{2} + 2 a x + x^{2}}\cdot U_a\right)^2 + \left(\frac{3 \sqrt{a x^{2} + b}}{2 \left(a + x\right)}\cdot U_b\right)^2}\\
+$$ -->
+![tool](resources/tool.png)
 <!--  -->
 User can also provide (when asked by a program) to input the lists of values and uncertainties 
 for each variable (if user doesn't want to provide values or uncertainties - from some point
@@ -96,10 +81,25 @@ they were inputted:
 <!--  -->
 $$
 a \in a_1, a_2, a_3, a_4, a_5\\
+$$
+<!--  -->
+$$
 \delta a \in \delta a_1, \delta a_2, \delta a_3, \delta a_4, \delta a_5\\
+$$
+<!--  -->
+$$
 \dots\\
+$$
+<!--  -->
+$$
 f_1 = f(a_1, b_1, \dots)\\
+$$
+<!--  -->
+$$
 \delta f_1 = \delta f(a_1, \delta a_1, b_1, \dots)\\
+$$
+<!--  -->
+$$
 \dots\\
 $$
 <!--  -->
