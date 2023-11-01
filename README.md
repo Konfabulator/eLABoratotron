@@ -107,6 +107,24 @@ All the values and uncertainties of the expression are calculated and saved into
 a file 'results.txt' in the same directory as the application.
 <!--  -->
 $$
+\color{red}
 \text{THAT'S ALL - HAVE FUN.}
 $$
 <!--  -->
+---------------------
+# table_generator
+A simple application that generates a table of a given numbers.\
+\
+User simply puts own data into the table '**column_values**' (manualy inside 
+the python code) and adds 
+column titles in '**column_names**' list (one can also add titles of rows
+simply as a column of strings).\
+It is also possible to choose the decimal '**separator**' (default is ',').\
+\
+The program returns a nicely formatted table in LaTeX format (which can be
+easily copied and pasted into a REPORT or another LaTeX document).\
+<!--  -->
+$$
+\color{red}
+\text{NICE'N SIMPLE}
+$$
