@@ -1,3 +1,11 @@
+
+<!-- ### Hi, I'm curious how many people will actually use this repository, so if you use it and like it just leave me a star or smth. -->
+<!-- make the sentence above red -->
+<!--  -->
+<!-- <h1> -->
+<font color="magenta" size=4>Hi, I'm curious how many people actually use this repository, so if you USE it and/or LIKE it just leave me some sign of your existence:)</font>
+<!-- </h1> -->
+___
 # uncerainty_function_maker
 The 'uncerainty_function_maker' is an application that automates the calculation of 
 uncertainty $\delta f$ of a given multi-variable expression:
@@ -106,11 +114,6 @@ $$
 All the values and uncertainties of the expression are calculated and saved into 
 a file 'results.txt' in the same directory as the application.
 <!--  -->
-$$
-\color{red}
-\text{THAT'S ALL - HAVE FUN.}
-$$
-<!--  -->
 ---------------------
 # table_generator
 A simple application that generates a table of a given numbers.\
@@ -122,9 +125,23 @@ simply as a column of strings).\
 It is also possible to choose the decimal '**separator**' (default is ',').\
 \
 The program returns a nicely formatted table in LaTeX format (which can be
-easily copied and pasted into a REPORT or another LaTeX document).\
+easily copied and pasted into a REPORT or another LaTeX document).
+<!--  -->
+---------------------
+# weighted_average
+Application let's user calculate the weighted average of a given set of values
+with their uncertainties.\
+\
+User simply puts own data into the table '**values**' (manualy inside
+the python code) and adds uncertainties in '**errors**' list in the similar fashion.\
+\
+The program returns the weighted average of the given values with it's 
+internal and external uncertainties (the bigger one of those is considered as the
+final uncertainty of the weighted average).
 <!--  -->
 $$
 \color{red}
-\text{NICE'N SIMPLE}
+\text{THAT'S ALL - HAVE FUN.}\\
+\color{magenta}
+\text{KONFABULATOR}
 $$
