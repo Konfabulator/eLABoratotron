@@ -142,6 +142,9 @@ final uncertainty of the weighted average).
 $$
 \color{red}
 \text{THAT'S ALL - HAVE FUN.}\\
+$$
+<!--  -->
+$$
 \color{magenta}
 \text{KONFABULATOR}
 $$
